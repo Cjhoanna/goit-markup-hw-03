@@ -40,6 +40,13 @@
   align-items: center;
   flex-direction: column;
 }
+.button_5{
+  display: flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center ;
+  text-align: center;
+}
 .section_page {
   color: #ffffff;
   font-family: "Roboto";
@@ -139,18 +146,21 @@
   justify-content: center;
 }
 .card-imagin {
-  flex-direction:row;
+  display: flex;
+  margin: 8%;
+  flex-direction: row;
   text-align: center;
   left: 208px;
   top: 1696px;
   width: 270px;
   height: 260px;
- }
-.text_h3{
+  display: flex;
+  }
+.text_h3 {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-  0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
-}
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  }
 .Christopher {
   color: #757575;
   font-family: "Roboto";
@@ -242,7 +252,7 @@ border-radius: 0px 0px 4px 4px;
   font-weight: 500;
   font-size: 14px;
 }
-.number{
+.number {
   text-decoration: none;
   color: #757575;
   font-family: "Roboto";
