@@ -2,12 +2,6 @@
 .header_border {
   border-bottom: 1px solid grey;
 }
-.imagin_background{
-  background-image: url(./imagenes/imagenheader.jpg);
-  background-position:center ;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
 .conteiner {
   border-bottom: #2196f3;
   display: flex;
