@@ -38,6 +38,11 @@
 .subtitle:hover {
   color: #2196f3;
 }
+.button :hover{
+  background-color: #2196f3;
+  color: #f4f7fa;
+  border-color: #2196f3;
+}
 .button_push {
   display: flex;
   justify-content: center;
@@ -61,7 +66,7 @@
   padding-top: 200px;
   padding-bottom: 200px;
   background: #2f303a;
-  margin: 0;
+  margin: auto;
 }
 .push {
   color: #ffffff;
@@ -75,8 +80,7 @@
   justify-content: space-between;
   align-items: stretch;
   border: 2px;
-  width: 1200px;
-  height: 80px;
+  width: 1600px;
 }
 .title {
   color: #757575;
@@ -94,26 +98,20 @@
   font-size: 14px;
   line-height: 16px;
 }
-.what {
-  color: #757575;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 16px;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
 .imagin {
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content:space-between;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1200px;
   margin: auto;
-  padding: 50px;
- }
-.our {
+}
+.background_card{
+  background-color:  #F5F4FA;
+}
+.titleh2 {
   color: #757575;
   font-family: "Roboto";
   font-style: normal;
@@ -122,16 +120,17 @@
   line-height: 16px;
   display: flex;
   justify-content: center;
+  width: 1200px;
 }
 .card-imagin {
   display: flex;
-  align-items:center;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-items: space-between;
-  margin: auto;
-  text-align:center;
-  width: 270px;
-  padding: 0px;
- }
+  width: 250px;
+  margin: 0 auto;
+  
+}
 .text_h3 {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
