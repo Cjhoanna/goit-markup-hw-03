@@ -1,8 +1,7 @@
-
 .header_border {
   border-bottom: 1px solid grey;
 }
-.conteiner {
+.inicial_border {
   border-bottom: #2196f3;
   display: flex;
   justify-content: space-around;
@@ -10,7 +9,7 @@
   align-items: center;
   padding: 15px;
 }
-.container1{
+.container {
   padding: 0 15%;
   max-width: 1200px;
   margin: 0 auto;
@@ -38,7 +37,7 @@
 .subtitle:hover {
   color: #2196f3;
 }
-.button :hover{
+.button :hover {
   background-color: #2196f3;
   color: #f4f7fa;
   border-color: #2196f3;
@@ -101,15 +100,15 @@
 .imagin {
   list-style: none;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   text-align: center;
   flex-direction: row;
   flex-wrap: wrap;
   width: 1200px;
   margin: auto;
 }
-.background_card{
-  background-color:  #F5F4FA;
+.background_card {
+  background-color: #f5f4fa;
 }
 .titleh2 {
   color: #757575;
@@ -129,7 +128,6 @@
   justify-items: space-between;
   width: 250px;
   margin: 0 auto;
-  
 }
 .text_h3 {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
