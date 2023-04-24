@@ -105,10 +105,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 1200px;
-  margin: auto;
-}
-.background_card {
-  background-color: #f5f4fa;
+  margin: 0 auto;
 }
 .titleh2 {
   color: #757575;
@@ -126,8 +123,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-items: space-between;
-  width: 250px;
-  margin: 0 auto;
+  width: 240px;
+  margin: auto;
 }
 .text_h3 {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -201,11 +198,13 @@
 .WebStudio {
   color: #2196f3;
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   background: #2f303a;
+}
+.title_finish{
+  color: #2196f3;
 }
 .address_paragraph {
   margin: 0;
@@ -218,23 +217,23 @@
   font-size: 14px;
 }
 .email {
-  text-decoration: none;
   color: #757575;
+  text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
 }
 .number {
-  text-decoration: none;
   color: #757575;
+  text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
 }
-.ubication {
+.social_net {
+  align-content:end;
   display: flex;
-  align-content: flex-end;
-  text-align:center;
+  text-align:right;
 }
