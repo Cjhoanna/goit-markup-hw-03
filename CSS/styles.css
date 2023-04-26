@@ -37,7 +37,7 @@
 .subtitle:hover {
   color: #2196f3;
 }
-.button :hover {
+.nav_button :hover {
   background-color: #2196f3;
   color: #f4f7fa;
   border-color: #2196f3;
@@ -48,7 +48,7 @@
   align-items: center;
   flex-direction: column;
 }
-.button_5 {
+.header_button_5 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -97,16 +97,6 @@
   font-size: 14px;
   line-height: 16px;
 }
-.imagin {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 1200px;
-  margin: 0 auto;
-}
 .titleh2 {
   color: #757575;
   font-family: "Roboto";
@@ -117,6 +107,16 @@
   display: flex;
   justify-content: center;
   width: 1200px;
+}
+.imagin {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin: 0 auto;
 }
 .card-imagin {
   display: flex;
