@@ -1,5 +1,19 @@
+ul {
+ margin: 0;
+ padding: 0;
+}
 .header_border {
  border-bottom: 1px solid grey;
+}
+.main_portafolio {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.main_portafolio_section {
+ max-width: 1360px;
+ margin-bottom: 82px;
 }
 .main_title {
  color: #2196f3;
@@ -9,6 +23,11 @@
  font-size: 26px;
  line-height: 31px;
 }
+.container {
+ padding: 0 15px;
+ width: 1200px;
+ margin: 0 auto;
+}
 .header_line {
  border-bottom: #2196f3;
  display: flex;
@@ -16,9 +35,6 @@
  width: 1200px;
  align-items: center;
  padding: 15px;
-}
-.subtitle:hover {
- color: #2196f3;
 }
 .subtitle {
  color: #212121;
@@ -28,6 +44,9 @@
  font-weight: 500;
  font-size: 14px;
  line-height: 16px;
+}
+.subtitle:hover {
+ color: #2196f3;
 }
 .link_style {
  text-decoration: none;
@@ -42,25 +61,39 @@
  line-height: 16px;
 }
 .header_button_5 {
- display: flex;
- flex-direction: row;
- justify-content: space-around;
- align-items: center;
  text-align: center;
+ margin: 0 auto;
+ padding: 73px 38px;
 }
-.nav_button :hover {
+.nav_button {
+ background: #f5f4fa;
+ border-radius: 4px;
+ padding: 6px 24px;
+ color: #212121;
+ border: 0;
+}
+.nav_button:hover {
  background-color: #2196f3;
  color: #f4f7fa;
- border-color: #2196f3;
 }
 .main_imagin {
  list-style: none;
  display: flex;
- justify-content: space-between;
+ gap: 30px;
+ justify-content: center;
  text-align: center;
  flex-direction: row;
  flex-wrap: wrap;
- margin: 0 auto;
+}
+.our_team_card {
+ max-width: 1200px;
+}
+.card {
+ border: 1px solid #eeeeee;
+ border-radius: 0px 0px 4px 4px;
+}
+.card-imagin {
+ object-fit: cover;
 }
 .main_text_h3 {
  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -109,5 +142,5 @@
 .social_net {
  align-content: end;
  display: flex;
- text-align: right;
+ justify-content: flex-end;
 }
