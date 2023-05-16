@@ -30,7 +30,8 @@
  font-size: 14px;
  /* line-height: 16px; */
 }
-.subtitle:hover {
+.subtitle:hover,
+.subtitle:focus {
  color: #2196f3;
 }
 .our_team_card {
